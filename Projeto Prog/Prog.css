@@ -5,7 +5,7 @@
 
 header{ 
     padding-right: 0px;
-    padding-bottom: -500px;
+    padding-bottom: 0px;
     margin: 0px;
     text-align: center;
     background: #60f2ff;
@@ -15,20 +15,22 @@ header{
 .topnav {
     background-color: rgb(29, 29, 29);
     overflow: hidden;
+    box-shadow:  black;
+    box-shadow: 0px 0px 10px 0.5px black;
 }
 
 .topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 20px 18px 16px 18px;
+  padding: 20px 16px 20px 16px;
   text-decoration: none;
   font-size: 17px;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .topnav a:hover {
-  background-color:  #60f2ff;
+  background-color: #60f2ff;
   color: black;
 }
 
@@ -41,62 +43,68 @@ header{
   float: right;
 }
 
+body {
+    background-image: url(back.jpg);
+    width: auto;
+    height: 50px;
+}
+
 h1 {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
-    position: absolute;
+    text-align: center;
+    text-shadow: 10px 10px 9px rgb(150, 150, 150);
 }
 
 h2 {
+    margin-top: 5px;
+    margin-bottom: 25px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 10px 10px 9px rgb(150, 150, 150);
 }
 
 h3 {
+    margin-top: 12px;
+    margin-bottom: 5px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
-    margin-bottom: 30px;
+    font-family: 'Josefin-Sans', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    text-shadow: 10px 10px 9px rgb(150, 150, 150);
 }
 
 p {
     font-family: 'Josefin Sans', sans-serif;
     text-align: justify;
     font-size: 20px;
-    margin-left: 260px;
-    margin-right: 260px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 15px;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 32%;
     border: 3px solid;
-  }
-
-body {
-    background-image: url(Abstract-Blue.jpg);
-    width: auto;
-    height: 50px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 8px 0.5px black;
 }
 
-table img {
-    margin: 0em;
-width: 100px;
-height: auto;
-}
-
-#Covers { 
-    margin-left: 80px;
-    margin-top: 20px;
-    position: absolute;
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+    margin-top: 30px;
+    box-shadow: 0px 0px 8px 0.5px black;
 }
 
 .dropdown {
@@ -139,10 +147,23 @@ height: auto;
 }  
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #60f2ff;
     color: black;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
   }
+
+footer {
+    margin-top: 120px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    text-align: center;
+    background: #60f2ff;
+}
+
+footer p {
+    text-align: center;
+    font-size: 18px;
+}
