@@ -15,6 +15,7 @@ header{
 .topnav {
     background-color: rgb(29, 29, 29);
     overflow: hidden;
+    box-shadow:  black;
     box-shadow: 0px 0px 10px 0.5px black;
 }
 
@@ -29,7 +30,7 @@ header{
 }
 
 .topnav a:hover {
-    background-color: #60f2ff;
+  background-color: #60f2ff;
   color: black;
 }
 
@@ -43,16 +44,35 @@ header{
 }
 
 body {
-    background-image: url(back.jpg);
-    min-height: fit-content;
+    background-image: url("d:/Projetos/ProjetoProg/Imagens/back.jpg");
 }
 
 h1 {
     margin-top: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
+    text-align: center;
+    text-shadow: 10px 10px 9px rgb(150, 150, 150);
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 10px 10px 9px rgb(150, 150, 150);
+}
+
+h3 {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Josefin-Sans', sans-serif;
+    font-size: 23px;
     text-align: center;
     text-shadow: 10px 10px 9px rgb(150, 150, 150);
 }
@@ -63,15 +83,7 @@ p {
     font-size: 20px;
     margin-left: 300px;
     margin-right: 300px;
-    margin-top: 70px;
-    line-height: 25px;
-}
-
-h2 {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
 }
 
 .center {
@@ -79,6 +91,15 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 32%;
+    border: 3px solid;
+    margin-top: 30px;
+    box-shadow: 0px 0px 8px 0.5px black;
+}
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: 3px solid;
     margin-top: 30px;
     box-shadow: 0px 0px 8px 0.5px black;
@@ -130,7 +151,7 @@ h2 {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
+  }
 
 footer {
     margin-top: 120px;
