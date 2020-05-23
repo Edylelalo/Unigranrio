@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="PCA.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <title>Stringmusic</title>  
 </head>
 
@@ -11,311 +15,98 @@
        <header> 
            <div id="banner"> 
                <h1>
-                    <img src="Stringmusic.png" alt="image">   
+                    <img src="Stringmusic.png" alt="image">                     
                </h1>
               
               <nav>
                  <ul>
                   <li><a href="PCA.html">Home</a></li>
-                  <li><a href="">Sobre</a></li>           
+                  <li><a href="Sobre.html">Sobre</a></li>
+                  <li><a href="Contato.html">Fale Conosco</a></li>
                  </ul>
               </nav>
          </div>
       </header>
-     
-      <section>
-          <div id="Instrumentos">
-              <h2 style="font-family: 'Comfortaa', cursive;" >Escolha seu Instrumento</h2> <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
 
-              <table>
-                  <tr>
-                     
-        <th data-href="Guitarra.html" id="guitarra">
-                    <style>
-                        .container {
-                          position: relative;
-                          width: 50%;
-                        }
-                        
-                        .image {
-                          display: block;
-                          width: auto;
-                          height: 450px;
-                          object-fit: contain;
-                        }
-                        
-                        .overlay {
-                          position: absolute;
-                          bottom: 0;
-                          left: 0;
-                          right: 0;
-                          background-color: rgb(165, 0, 0);
-                          overflow: hidden;
-                          width: 0;
-                          height: 100%;
-                          transition: .5s ease;
-                        }
-                        
-                        .container:hover .overlay {
-                          width: 25%;
-                        }
-                        
-                        .text {
-                          white-space: nowrap; 
-                          color: white;
-                          font-size: 18px;
-                          position: absolute;
-                          overflow: hidden;
-                          font-family: Arial, Helvetica, sans-serif;
-                          top: 50%;
-                          left: 50%;
-                          transform: translate(-50%, -50%);
-                          -ms-transform: translate(-50%, -50%);
-                        }
-                        </style>           
-                        <div class="container">
-                          <img src="Eguitar.png" alt="Guitar" height="450px" width="450px" class="image">
-                          <div class="overlay">
-                            <div class="text">Guitarra<br>Elétrica</div>
-                          </div>
-                        </div></th>
-                    
-        <th data-href="" id="violao">
-                        <style>.container {
-                        position: relative;
-                        width: 100%;
-                      }
-                      
-                      .image {
-                        display: block;
-                        width: auto;
-                        height: 450px;
-                        object-fit: contain;
-                      }
-                      
-                      .overlay {
-                        position: absolute;
-                        bottom: 0;
-                        left: 0;
-                        right: 0;
-                        background-color: rgb(165, 0, 0);
-                        overflow: hidden;
-                        width: 0;
-                        height: 100%;
-                        transition: .5s ease;
-                      }
-                      
-                      .container:hover .overlay {
-                        width: 100%;
-                      }
-                      
-                      .text {
-                        white-space: nowrap; 
-                        color: white;
-                        font-size: 15px;
-                        position: absolute;
-                        overflow: hidden;
-                        font-family: Arial, Helvetica, sans-serif;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        -ms-transform: translate(-50%, -50%);
-                      }
-                      </style>           
-                      <div class="container">
-                        <img src="Aguitar.png" alt="Guitar" height="450px" width="450px" class="image">
-                        <div class="overlay">
-                          <div class="text">Violão</div>
-                        </div>
-                      </div></th>
-                    
-        <th data-href="" id="baixo">
-                        <style>
-                        .container {
-                        position: relative;
-                        width: 100%;
-                      }
-                      
-                      .image {
-                        display: block;
-                        width: auto;
-                        height: 450px;
-                        object-fit: contain;
-                      }
-                      
-                      .overlay {
-                        position: absolute;
-                        bottom: 0;
-                        left: 0;
-                        right: 0;
-                        background-color: rgb(165, 0, 0);
-                        overflow: hidden;
-                        width: 0;
-                        height: 100%;
-                        transition: .5s ease;
-                      }
-                      
-                      .container:hover .overlay {
-                        width: 100%;
-                      }
-                      
-                      .text {
-                        white-space: nowrap; 
-                        color: white;
-                        font-size: 15px;
-                        position: absolute;
-                        overflow: hidden;
-                        font-family: Arial, Helvetica, sans-serif;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        -ms-transform: translate(-50%, -50%);
-                      }
-                      </style>           
-                      <div class="container">
-                        <img src="Bass.png" alt="Baixo" height="450px" width="450px" class="image">
-                        <div class="overlay">
-                          <div class="text">Baixo</div>
-                        </div></th>
-                    
-        <th data-href="" id="piano">
-                        <style>
-                        .container {
-                        position: relative;
-                        width: 100%;
-                      }
-                      
-                      .image {
-                        display: block;
-                        width: auto;
-                        height: 450px;
-                        object-fit: contain;
-                      }
-                      
-                      .overlay {
-                        position: absolute;
-                        bottom: 0;
-                        left: 0;
-                        right: 0;
-                        background-color: rgb(165, 0, 0);
-                        overflow: hidden;
-                        width: 0;
-                        height: 100%;
-                        transition: .5s ease;
-                      }
-                      
-                      .container:hover .overlay {
-                        width: 100%;
-                      }
-                      
-                      .text {
-                        white-space: nowrap; 
-                        color: white;
-                        font-size: 15px;
-                        position: absolute;
-                        overflow: hidden;
-                        font-family: Arial, Helvetica, sans-serif;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        -ms-transform: translate(-50%, -50%);
-                      }
-                      </style>           
-                      <div class="container">
-                        <img src="piano.png" alt="Piano" height="450px" width="450px" class="image">
-                        <div class="overlay">
-                          <div class="text">Piano</div>
-                        </div></th>
-                        
-        <th data-href="" id="violino">
-                        <style>
-                            .container {
-                            position: relative;
-                            width: 100%;
-                          }
-                          
-                          .image {
-                            display: block;
-                            width: auto;
-                            height: 450px;
-                            object-fit: contain;
-                          }
-                          
-                          .overlay {
-                            position: absolute;
-                            bottom: 0;
-                            left: 0;
-                            right: 0;
-                            background-color: rgb(165, 0, 0);
-                            overflow: hidden;
-                            width: 0;
-                            height: 100%;
-                            transition: .5s ease;
-                          }
-                          
-                          .container:hover .overlay {
-                            width: 100%;
-                          }
-                          
-                          .text {
-                            white-space: nowrap; 
-                            color: white;
-                            font-size: 15px;
-                            position: absolute;
-                            overflow: hidden;
-                            font-family: Arial, Helvetica, sans-serif;
-                            top: 50%;
-                            left: 50%;
-                            transform: translate(-50%, -50%);
-                            -ms-transform: translate(-50%, -50%);
-                          }
-                          </style>           
-                          <div class="container">
-                            <img src="violin.png" alt="Violino" height="450px" width="450px" class="image">
-                            <div class="overlay">
-                              <div class="text">Violino</div>
-                            </div></th>
-                  </div>
-                  </tr>
-              </table>
-          </div>
-      </section>
+  <div id="Instrumentos">
+    <h2 style="font-family: 'Comfortaa', cursive; font-size: 30px; margin-top: 90px; margin-bottom: 50px;">O que é Musicoterapia</h2> 
 
-      <p style="text-align: center; color: black; margin-bottom: 50px; font-family: 'Manrope', sans-serif;">
-        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
-        Este site foi feito com o intuito de incentivar e explicar como funcionam alguns instrumentos.<br>Escolha um instrumento e comece a aprender!
+      <p style="text-align: justify; color: black; margin-bottom: 50px; font-family: 'Manrope', sans-serif;">
+        A <strong>Musicoterapia</strong> é uma técnica de tratamento que utiliza da música para promover a saúde de pessoas no geral.
+        São feitas sessões com o paciente ativo, ao se colocar a tocar e cantar junto com o psicoterapeuta.
+        Pode-se trabalhar sessões individuais ou em grupos, e cada um vai fazendo de acordo com o seu ritmo e/ou juntamente com o terapeuta,
+        porém, ambos trabalhando as técnicas juntos, de forma ativa ou  passiva, quando o paciente apenas vai percebendo o que o terapeuta faz, toca ou canta.<br><br>
+        A musicoterapia é feita com a execução de uma música ou trecho musical, por meio do qual o paciente vai acompanhando e participando ativamente.
+        Os benefícios são comprovados pelos estudos científicos e vistos no processo do terapia, os quais são observados um bom desenvolvimento dos pacientes nas sessões,
+        melhor desempenho em suas sensações corporais e na capacidade que vão desenvolvendo em expressar suas emoções com mais facilidade.<br><br>
+        Por exemplo, a musicoterapia pode ajudar pacientes de Alzheimer e outros tipos de doenças neurodegenerativas também são beneficiados com a musicoterapia,
+         pois o tratamento faz com que os pacientes tenham certa ativação neural.
       </p>
 
-      <footer>
-          <div id="copyright">
-              <a href="PCA.html" id="logo-Stringmusic">
-                  <img src="Stringmusic.png">
-              </a>
+      <img class="center" src="musica.jpg">
 
-              <p>Todos os direitos reservados &copy; 2020</p>
+      <h2 style="font-family: 'Comfortaa', cursive; font-size: 30px; margin-top: 55px; margin-bottom: 50px;">Benefícios da Musicoterapia</h2>
 
-          </div>
-      </footer>
-   
-      <script>
-          document.addEventListener("DOMContentLoaded", () => { 
-              const rows = document.querySelectorAll("th[data-href]");
-              console.log(rows);
-            
-            rows.forEach(row => {
-                row.addEventListener("click", () => {
-                   window.location.href = row.dataset.href;
-                });
-             });
-          });
-      </script>
+      <p style="text-align: justify; color: black; margin-bottom: 50px; font-family: 'Manrope', sans-serif;">
+        Existem diversos benefícios que podem ser proporcionados pela musicoterapia, como em:<br><br>
+        <strong>Doenças Cardíacas</strong><br> Em um review publicado pela Cochrane Library, foi visto que
+        o simples ato de ouvir música pode melhorar as frequências cardíaca e respiratória, além da pressão sanguínea em pacientes com Doença Arterial Coronária, mesmo que
+        ainda sejam necessários mais estudos para comprovar a real eficiência e aplicabilidade de musicoterapia para pacientes dessa doença.<br><br>
+        <strong>Transtornos Neurológicos</strong><br> Apesar da musicoterapia já ter sido usada de maneira persistente para tratar diversos problemas psicológicos,
+        foi somente nos anos 1980 que pesquisas empíricas (que se apoiam em experimentos) começaram a ser feitas nesse campo.
+        Desde então, diversos estudos na área vêm sido desenvolvidos, levando em conta diversas patologias.
+        Até hoje, a musicoterapia se mostrou mais eficaz no tratamento de sintomas negativos, como a ansiedade e o isolamento.<br><br>
+        <strong>AVC</strong><br> A música age em diversas razões do cérebro,
+        razão pela qual se mostra tão efetiva no tratamento de vítimas de derrames.
+        Isso acontece porque a música é capaz de despertar emoções e estimular interações sociais, auxiliando na recuperação do paciente.<br><br>
+        <strong>Demência</strong><br> Por ativar tantas áreas do cérebro de maneira tão intensa a música serve como via terapêutica para tratar sintomas como a demência, tão comum em doenças como o mal de Alzheimer e outras doenças neurodegenerativas.
+        Ao escutar música, o paciente ativa diversos padrões neuronais (sinapses) que não eram estimulados há muito tempo, fazendo com que a pessoa que está sofrendo com a demência “acorde”, de certa forma.<br><br>
+        <strong>Amnésia</strong><br> Alguns sintomas da amnésia foram amenizados através de diversas interações com a música,
+        seja quando o paciente toca algum instrumento, ou quando está passivo, somente ouvindo uma canção. Um caso famoso de paciente amnésico que se beneficia da música até os dias de hoje é o do musicólogo,
+        maestro e tenor Clive Wearing, em seu caso, Clive desenvolveu um severo caso de amnésia, adquirida após contrair encefalite causada por um vírus da herpes que atacava o seu Sistema Nervoso Central.<br>
+        Mesmo com esse caso de amnésia, Clive ainda conseguia tocar piano e outros instrumentos e até reger uma orquestra. Apesar das memórias de acontecimentos simplesmente desaparecerem, memórias como a muscular continuam intactas,
+        o que faz com que Wearing consiga, inclusive, aprender novas músicas, esquecer que as aprendeu, e executá-las no piano posteriormente.<br><br>
+        <strong>Afasia</strong><br> Existe uma técnica usada por musicoterapeutas e fonoaudiólogos chamada Terapia da Entonação Melódica, que serve para ajudar pessoas com distúrbios de comunicação causados por danos no hemisfério esquerdo do cérebro.
+        A técnica busca envolver habilidades de canto, estimulando as regiões não danificadas do hemisfério direito a “aprenderem” a falar. Nessa técnica, frases comuns são transformadas em frases melódicas.
+        No início, o paciente fala quase que cantando e aos poucos vai reaprendendo a entonação típica e os padrões rítmicos comuns da fala do dia a dia.<br><br>
+        <strong>Autismo</strong><br> O autismo, também conhecido como Transtorno do Espectro Autista, é um transtorno que causa problemas no desenvolvimento da linguagem, nos processos de comunicação, na interação e no comportamento social das crianças.
+        Apesar de não possuir cura e de suas causas serem incertas, crianças com autismo podem se beneficiar bastante da musicoterapia, pois a utilização de instrumentos pode servir como uma importante ferramenta para incentivar a comunicação e a autoexpressão,
+        trazendo qualidade de vida para o portador da condição.<br><br>
+        <strong>Vida Social</strong><br> A musicoterapia estimula o potencial criativo e a capacidade comunicativa, mobilizando aspectos psicológicos, biológicos e culturais.
+        Essa modalidade de musicoterapia busca empoderar grupos e possibilitar engajamentos, troca de experiências entre pacientes,
+        para que eles possam se organizar e realizar todos os enfrentamentos necessários para uma vida social de maior saúde.
+      </p>
 
-      <style>
-          th[data-href] {
-              cursor: pointer;
-          }
-      </style>
-   
+    <h2 style="font-family: 'Comfortaa', cursive; font-size: 30px; margin-top: 45px; margin-bottom: 50px;">Como a música nos afeta</h2>
+      
+      <p style="text-align: justify; color: black; margin-bottom: 50px; font-family: 'Manrope', sans-serif;">
+        O ato de ouvir música e/ou tocar, ajuda a melhorar as frequências cardíacas e respiratórias e pressão de pacientes portadores de doença arterial coronária.
+        A música evoca emoções intensas e age no cérebro ativando o corpo caloso, o córtex sensorial, o córtex auditivo, o córtex motor, o córtex pré-frontal, o córtex visual,
+        o córtex visual, o hipocampo, a amigdala (sim, tudo isso!).<br><br>
+        A música evoca emoções intensas e age no cérebro ativando todas essas regiões. Em um estudo na revista PLoS One em 2014, os pesquisadores colocaram músicos de jazz para tocar seus instrumentos enquanto faziam uma ressonância magnética do cérebro.
+        Essa prática serviu para averiguar quais partes do cérebro se acendiam quando os músicos estavam tocando.<br><br>
+        Além de se constatar que todas aquelas regiões foram de fato ativadas, os pesquisadores pediram que os músicos improvisassem em conjunto.
+        Isso possibilitou a constatação de que o cérebro,
+        quando estamos improvisando uma música em conjunto, funciona de uma maneira muito similar a quando estamos conversando oralmente com outra pessoa.
+        Essa descoberta serve de respaldo para musicoterapia e seus benefícios para processos comunicativos,
+        visto que as mesmas áreas de comunicação se acendem tanto quando estamos conversando como quando estamos tocando algum instrumento com outra pessoa.<br><br>
+        Além de tratamentos terapêuticos, a música pode influenciar nossas emoções afetando principalmente nossa fisiologia, como nossos hormônios, o ritmo cardíaco e as pulsações.<br>
+        O nosso humor pode ser afetado pelo tipo de música que ouvimos ou cantamos.
+        Uma canção triste pode nos deixar melancólicos, enquanto uma música alegre pode nos animar e trazer alguns momentos de felicidade.
+        Uma música suave e harmônica nos acompanha nos momentos de relaxamento e estudo, e uma música rítmica nos estimula enquanto nos exercitamos.<br><br>
+        O nosso humor pode ser afetado pelo tipo de música que ouvimos ou cantamos. Uma canção triste pode nos deixar melancólicos, enquanto uma música alegre pode nos animar e trazer alguns momentos de felicidade.
+        Uma música suave e harmônica nos acompanha nos momentos de relaxamento e estudo, e uma música rítmica nos estimula enquanto nos exercitamos.
+        A música também tem um efeito sobre muitas das nossas memórias importantes. Quem nunca associou uma determinada situação com uma canção?
+      </p>
+
+      <img class="center" src="heart.jpg">
+
+      <h2 style="font-family: 'Comfortaa', cursive; font-size: 18px; margin-top: 25px; margin-bottom: 15px;">Referências</h2>
+      
+      <p style="text-align: justify; color: black; margin-bottom: 50px; font-family: 'Manrope', sans-serif;">
+        <a>https://minutosaudavel.com.br/musicoterapia/#o-que-e-</a><br><br>
+        <a>http://www.revistademusicoterapia.mus.br/wp-content/uploads/2016/10/A-utiliza%C3%A7%C3%A3o-da-m%C3%BAsica-por-musicoterapeutas-e-por-outros-profissionais-em-din%C3%A2mica-de-psicoterapia-com-grupos-uma-revis%C3%A3o-sistem%C3%A1tica.pdf</a>
+
     </body>
 
    </html>

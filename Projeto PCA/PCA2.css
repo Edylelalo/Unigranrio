@@ -13,8 +13,18 @@ body {
     margin: 0;
 }
 
+header {
+    box-shadow:  black;
+    box-shadow: 0px 0px 10px 0.5px black;
+    background-color: white;
+}
+
+p {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
 #banner {
-    background-color: rgba(170, 170, 170, 0.39);
     height: 50px;
 	padding: 0px 0px 100px 0px;
 }
@@ -51,19 +61,24 @@ body {
 }
 
 #banner nav ul li a {
-	text-decoration: none;
-	color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
     font-family: 'Comfortaa', cursive;
     top: 60px;
     position: absolute;
+    text-decoration: none;
+}
 
+#banner nav ul li a:hover {
+    color: rgb(102, 102, 102);
 }
 
 #Instrumentos h2 {
-	line-height: 0;
+    margin-top: px;
+	line-height: 3;
 	margin: 0;
 	text-align: center;
     text-shadow: 10px 15px 10px rgba(0, 0, 0, 0.39);
@@ -71,50 +86,6 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     color: rgb(0, 0, 0);
     position: relative;
-}
-
-#Instrumentos table {
-    background-color: #2a2a2a00;
-    border-collapse: collapse;
-	margin: 0 auto;
-    width: 70%;
-    position: relative;
-}
-
-#Instrumentos table td,
-#Instrumentos table th {
-	border: 5px rgba(170, 170, 170, 0.39);
-	font-size: 12px;
-	padding: 50px;
-	text-align: center;
-	text-transform: uppercase;
-    width: 20%;
-    height: auto;
-}
-
-#copyright {
-	background-color:rgba(170, 170, 170, 0.39);
-    padding: 1px 0 80px 0;	
-}
-
-#copyright a img {
-	display: block;
-    position: absolute;
-    margin-left: 800px;
-    margin-top: 20px;
-    width: auto;
-    height: 70px;
-}
-
-#copyright p {
-	font-size: 12px;
-    text-align: center;
-    color: black;
-}
-
-#Instrumentos {
-	margin-top: 10px;
-	padding-bottom: 60px;
 }
 
 .boxed {
@@ -131,4 +102,14 @@ body {
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 600;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;
+    border: 3px solid;
+    margin-top: 30px;
+    box-shadow: 0px 0px 8px 0.5px black;
 }

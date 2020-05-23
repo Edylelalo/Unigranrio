@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="contato.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <title>Stringmusic</title>
+
+    <script type="text/javascript">
+        function Enviar() {
+ 
+ var nome = document.getElementById("nomeid");
+
+ if (nome.value != "") {
+     alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+ }
+
+}
+    </script>
+
+</head>
+
+   <body>  
+       <header> 
+           <div id="banner"> 
+               <h1>
+                    <img src="Stringmusic.png" alt="image">                     
+               </h1>
+              
+              <nav>
+                 <ul>
+                  <li><a href="PCA.html">Home</a></li>
+                  <li><a href="">Sobre</a></li>
+                  <li><a href="Contato.html">Fale Conosco</a></li>         
+                 </ul>
+              </nav>
+         </div>
+      </header>
+
+      <form name="meu_form">
+ 
+        <h1 style="font-family: 'Comfortaa', cursive;">Entre em contato</h1>
+ 
+        <p class="nome" style="font-family:'Comfortaa', cursive;">
+            <input type="text" id="nomeid" placeholder="Seu Nome" required="required" name="nome" />
+            <label for="nome" style="font-family:'Comfortaa', cursive;">Nome</label>
+        </p>
+        <p style="font-family:'Comfortaa', cursive;">
+            <input type="email" id="emailid" placeholder="Seu E-mail" name="email" />
+            <label for="email" style="font-family:'Comfortaa', cursive;">E-mail</label>
+        </p>
+        <p style="font-family:'Comfortaa', cursive;">
+            <textarea style="font-family:'Comfortaa', cursive;" placeholder="Deixe Sua Opinião"></textarea>
+        </p>
+        <p style="font-family:'Comfortaa', cursive;" class="submit">
+            <input style="font-family:'Comfortaa', cursive;" type="submit" onclick="Enviar();" value="Enviar" />
+        </p>
+

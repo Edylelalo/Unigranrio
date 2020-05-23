@@ -13,12 +13,6 @@ body {
     margin: 0;
 }
 
-p {
-    margin-left: 250px;
-    margin-right: 250px;
-    font-size: 18px;
-}
-
 header {
     box-shadow:  black;
     box-shadow: 0px 0px 10px 0.5px black;
@@ -149,13 +143,62 @@ header {
     font-weight: 600;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 32%;
-    border: 2px solid black;
-    margin-top: 30px;
-    box-shadow: 0px 0px 8px 0.5px black;
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    max-width: 500px;
 }
 
+h1 {
+    line-height: 3;
+	margin: 0;
+	text-align: center;
+    text-shadow: 10px 15px 10px rgba(0, 0, 0, 0.39);
+    text-transform: uppercase;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+ 
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+ 
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000000;
+    box-shadow: 5px 0px 9px rgba(195, 195, 195, 0.493);
+    background-color: rgb(224, 224, 224);
+    color: black;
+    font-weight: bold;
+}
+ 
+.submit input {
+    background-color: rgb(255, 0, 0);
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+ 
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+ 
+form label {
+    margin-left: 20px;
+    color: rgb(0, 0, 0) 6, 6);
+    font-weight: bold;
+}

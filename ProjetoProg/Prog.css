@@ -44,7 +44,11 @@ header{
 }
 
 body {
+<<<<<<< HEAD:ProjetoProg/Prog.css
     background-image: url("d:/Projetos/ProjetoProg/back.jpg");
+=======
+    background-image: url("back.jpg");
+>>>>>>> fbf2720f17a3bb6c0fd30d1d0fc585f2485ef5c4:ProjetoProg/CSS/Prog.css
 }
 
 h1 {
