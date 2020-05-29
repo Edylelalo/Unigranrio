@@ -1,62 +1,103 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="contato.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.css">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <title>Stringmusic</title>
-
-    <script type="text/javascript">
-        function Enviar() {
- 
- var nome = document.getElementById("nomeid");
-
- if (nome.value != "") {
-     alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
- }
-
-}
-    </script>
-
-</head>
-
-   <body>  
-       <header> 
-           <div id="banner"> 
-               <h1>
-                    <img src="Stringmusic.png" alt="image">                     
-               </h1>
-              
-              <nav>
+    <script>
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+        <header> 
+            <div id="banner"> 
+                <h1>
+                     <img src="Stringmusic.png" alt="image">                     
+                </h1>
+               
+                <nav>
                  <ul>
+                  <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">MENU</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="Emoção.html" style="font-family: 'Comfortaa', cursive; font-weight: bold;">Como a música nos afeta?</a>
+                      <a href="Benefícios.html" style="font-family: 'Comfortaa', cursive; font-weight: bold;">Benefícios da Musicoterapia</a>
+                    </div>
+                  </div>
                   <li><a href="PCA.html">Home</a></li>
                   <li><a href="sobre.html">Sobre</a></li>
-                  <li><a href="Contato.html">Fale Conosco</a></li>         
+                  <li><a href="Contato.html">Fale Conosco</a></li>
                  </ul>
               </nav>
-         </div>
-      </header>
+          </div>
+       </header>
+    </head>
+    <body>
+    
+        <h2 style="font-family: 'Comfortaa', cursive; font-weight: bold; font-size: 30px; margin-top: 5%; margin-bottom: 3%; color: black; text-align: center;">Entre em Contato</h2>
+    <p>Envie seu Feedback, seja com sugestões, problemas ou elogios.</p>
+    
+    <div class="container">
+      <form method="POST" action="mailto:edylelalo@gmail.com" enctype="text/plain" >
+          
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Seu Nome</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Seu Nome..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">E-mail</label>
+          </div>
+          <div class="col-75">
+            <input type="email" id="email" name="email" placeholder="Seu E-mail..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+          </div>
+          <div class="col-75">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Sua Mensagem</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="..." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
 
-      <form class="center" style="margin-bottom: 10%;" name="meu_form">
- 
-        <h1 style="font-family: 'Comfortaa', cursive;">Entre em contato</h1>
- 
-        <p class="nome" style="font-family:'Comfortaa', cursive;">
-            <input type="text" id="nomeid" placeholder="Seu Nome" required="required" name="nome" />
-            <label for="nome" style="font-family:'Comfortaa', cursive;">Nome</label>
-        </p>
-        <p style="font-family:'Comfortaa', cursive;">
-            <input type="email" id="emailid" placeholder="Seu E-mail" name="email" />
-            <label for="email" style="font-family:'Comfortaa', cursive;">E-mail</label>
-        </p>
-        <p style="font-family:'Comfortaa', cursive;">
-            <textarea style="font-family:'Comfortaa', cursive;" placeholder="Deixe Sua Opinião"></textarea>
-        </p>
-        <p style="font-family:'Comfortaa', cursive;" class="submit">
-            <input style="font-family:'Comfortaa', cursive;" type="submit" onclick="Enviar();" value="Enviar" />
-        </p>
-
+    <footer id="down">
+        <a href="https://www.instagram.com/stringmusic_page/?hl=pt-br">
+        <img style="display: block; margin-left: auto; margin-right: auto; width: 55px; padding-top: 1.5%;" src="insta.png">
+        </a>
+      </footer>
+  </body>
+</html> 

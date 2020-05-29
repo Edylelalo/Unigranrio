@@ -4,14 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="PCA.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-    <title>Stringmusic</title>  
+    <title>Stringmusic</title>
+    <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script> 
 </head>
 
-   <body>  
+  <body>  
        <header> 
            <div id="banner"> 
                <h1>
@@ -20,6 +37,13 @@
               
               <nav>
                  <ul>
+                  <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">MENU</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="Emoção.html" style="font-family: 'Comfortaa', cursive; font-weight: bold;">Como a música nos afeta?</a>
+                      <a href="Benefícios.html" style="font-family: 'Comfortaa', cursive; font-weight: bold;">Benefícios da Musicoterapia</a>
+                    </div>
+                  </div>
                   <li><a href="PCA.html">Home</a></li>
                   <li><a href="sobre.html">Sobre</a></li>
                   <li><a href="Contato.html">Fale Conosco</a></li>
@@ -28,10 +52,10 @@
          </div>
       </header>
 
-  <div id="Instrumentos">
-    <h2 style="font-family: 'Comfortaa', cursive; font-size: 30px; margin-top: 90px; margin-bottom: 50px;">O que é Musicoterapia</h2> 
+    <div id="Instrumentos">
+      <h2 style="font-family: 'Comfortaa', cursive; font-size: 30px; margin-top: 5%; margin-bottom: 3%;">O que é Musicoterapia?</h2> 
 
-      <p style="text-align: justify; color: black; margin-bottom: 50px; font-family: 'Comfortaa', cursive; font-weight: 500;">
+        <p style="text-align: justify; color: black; margin-bottom: 50px; font-family: 'Comfortaa', cursive; font-weight: 500;">
         A <strong>Musicoterapia</strong> é uma técnica de tratamento que utiliza da música para promover a saúde de pessoas no geral.
         São feitas sessões com o paciente ativo, ao se colocar a tocar e cantar junto com o psicoterapeuta.
         Pode-se trabalhar sessões individuais ou em grupos, e cada um vai fazendo de acordo com o seu ritmo e/ou juntamente com o terapeuta,
@@ -41,72 +65,14 @@
         melhor desempenho em suas sensações corporais e na capacidade que vão desenvolvendo em expressar suas emoções com mais facilidade.<br><br>
         Por exemplo, a musicoterapia pode ajudar pacientes de Alzheimer e outros tipos de doenças neurodegenerativas também são beneficiados com a musicoterapia,
          pois o tratamento faz com que os pacientes tenham certa ativação neural.
-      </p>
+        </p>
+    </div>
+      <img class="center" style="position: relative;" src="musica.jpg">
 
-      <img class="center" src="musica.jpg">
-
-      <h2 style="font-family: 'Comfortaa', cursive; font-size: 30px; margin-top: 55px; margin-bottom: 50px;">Benefícios da Musicoterapia</h2>
-
-      <p style="text-align: justify; color: black; margin-bottom: 50px; font-family: 'Comfortaa', cursive; font-weight: 500;">
-        Existem diversos benefícios que podem ser proporcionados pela musicoterapia, como em:<br><br>
-        <strong>Doenças Cardíacas</strong><br> Em um review publicado pela Cochrane Library, foi visto que
-        o simples ato de ouvir música pode melhorar as frequências cardíaca e respiratória, além da pressão sanguínea em pacientes com Doença Arterial Coronária, mesmo que
-        ainda sejam necessários mais estudos para comprovar a real eficiência e aplicabilidade de musicoterapia para pacientes dessa doença.<br><br>
-        <strong>Transtornos Neurológicos</strong><br> Apesar da musicoterapia já ter sido usada de maneira persistente para tratar diversos problemas psicológicos,
-        foi somente nos anos 1980 que pesquisas empíricas (que se apoiam em experimentos) começaram a ser feitas nesse campo.
-        Desde então, diversos estudos na área vêm sido desenvolvidos, levando em conta diversas patologias.
-        Até hoje, a musicoterapia se mostrou mais eficaz no tratamento de sintomas negativos, como a ansiedade e o isolamento.<br><br>
-        <strong>AVC</strong><br> A música age em diversas razões do cérebro,
-        razão pela qual se mostra tão efetiva no tratamento de vítimas de derrames.
-        Isso acontece porque a música é capaz de despertar emoções e estimular interações sociais, auxiliando na recuperação do paciente.<br><br>
-        <strong>Demência</strong><br> Por ativar tantas áreas do cérebro de maneira tão intensa a música serve como via terapêutica para tratar sintomas como a demência, tão comum em doenças como o mal de Alzheimer e outras doenças neurodegenerativas.
-        Ao escutar música, o paciente ativa diversos padrões neuronais (sinapses) que não eram estimulados há muito tempo, fazendo com que a pessoa que está sofrendo com a demência “acorde”, de certa forma.<br><br>
-        <strong>Amnésia</strong><br> Alguns sintomas da amnésia foram amenizados através de diversas interações com a música,
-        seja quando o paciente toca algum instrumento, ou quando está passivo, somente ouvindo uma canção. Um caso famoso de paciente amnésico que se beneficia da música até os dias de hoje é o do musicólogo,
-        maestro e tenor Clive Wearing, em seu caso, Clive desenvolveu um severo caso de amnésia, adquirida após contrair encefalite causada por um vírus da herpes que atacava o seu Sistema Nervoso Central.<br>
-        Mesmo com esse caso de amnésia, Clive ainda conseguia tocar piano e outros instrumentos e até reger uma orquestra. Apesar das memórias de acontecimentos simplesmente desaparecerem, memórias como a muscular continuam intactas,
-        o que faz com que Wearing consiga, inclusive, aprender novas músicas, esquecer que as aprendeu, e executá-las no piano posteriormente.<br><br>
-        <strong>Afasia</strong><br> Existe uma técnica usada por musicoterapeutas e fonoaudiólogos chamada Terapia da Entonação Melódica, que serve para ajudar pessoas com distúrbios de comunicação causados por danos no hemisfério esquerdo do cérebro.
-        A técnica busca envolver habilidades de canto, estimulando as regiões não danificadas do hemisfério direito a “aprenderem” a falar. Nessa técnica, frases comuns são transformadas em frases melódicas.
-        No início, o paciente fala quase que cantando e aos poucos vai reaprendendo a entonação típica e os padrões rítmicos comuns da fala do dia a dia.<br><br>
-        <strong>Autismo</strong><br> O autismo, também conhecido como Transtorno do Espectro Autista, é um transtorno que causa problemas no desenvolvimento da linguagem, nos processos de comunicação, na interação e no comportamento social das crianças.
-        Apesar de não possuir cura e de suas causas serem incertas, crianças com autismo podem se beneficiar bastante da musicoterapia, pois a utilização de instrumentos pode servir como uma importante ferramenta para incentivar a comunicação e a autoexpressão,
-        trazendo qualidade de vida para o portador da condição.<br><br>
-        <strong>Vida Social</strong><br> A musicoterapia estimula o potencial criativo e a capacidade comunicativa, mobilizando aspectos psicológicos, biológicos e culturais.
-        Essa modalidade de musicoterapia busca empoderar grupos e possibilitar engajamentos, troca de experiências entre pacientes,
-        para que eles possam se organizar e realizar todos os enfrentamentos necessários para uma vida social de maior saúde.
-      </p>
-
-    <h2 style="font-family: 'Comfortaa', cursive; font-size: 30px; margin-top: 45px; margin-bottom: 50px;">Como a música nos afeta</h2>
-      
-      <p style="text-align: justify; color: black; margin-bottom: 50px; font-family: 'Comfortaa', cursive; font-weight: 500;">
-        O ato de ouvir música e/ou tocar, ajuda a melhorar as frequências cardíacas e respiratórias e pressão de pacientes portadores de doença arterial coronária.
-        A música evoca emoções intensas e age no cérebro ativando o corpo caloso, o córtex sensorial, o córtex auditivo, o córtex motor, o córtex pré-frontal, o córtex visual,
-        o córtex visual, o hipocampo, a amigdala (sim, tudo isso!).<br><br>
-        A música evoca emoções intensas e age no cérebro ativando todas essas regiões. Em um estudo na revista PLoS One em 2014, os pesquisadores colocaram músicos de jazz para tocar seus instrumentos enquanto faziam uma ressonância magnética do cérebro.
-        Essa prática serviu para averiguar quais partes do cérebro se acendiam quando os músicos estavam tocando.<br><br>
-        Além de se constatar que todas aquelas regiões foram de fato ativadas, os pesquisadores pediram que os músicos improvisassem em conjunto.
-        Isso possibilitou a constatação de que o cérebro,
-        quando estamos improvisando uma música em conjunto, funciona de uma maneira muito similar a quando estamos conversando oralmente com outra pessoa.
-        Essa descoberta serve de respaldo para musicoterapia e seus benefícios para processos comunicativos,
-        visto que as mesmas áreas de comunicação se acendem tanto quando estamos conversando como quando estamos tocando algum instrumento com outra pessoa.<br><br>
-        Além de tratamentos terapêuticos, a música pode influenciar nossas emoções afetando principalmente nossa fisiologia, como nossos hormônios, o ritmo cardíaco e as pulsações.<br>
-        O nosso humor pode ser afetado pelo tipo de música que ouvimos ou cantamos.
-        Uma canção triste pode nos deixar melancólicos, enquanto uma música alegre pode nos animar e trazer alguns momentos de felicidade.
-        Uma música suave e harmônica nos acompanha nos momentos de relaxamento e estudo, e uma música rítmica nos estimula enquanto nos exercitamos.<br><br>
-        O nosso humor pode ser afetado pelo tipo de música que ouvimos ou cantamos. Uma canção triste pode nos deixar melancólicos, enquanto uma música alegre pode nos animar e trazer alguns momentos de felicidade.
-        Uma música suave e harmônica nos acompanha nos momentos de relaxamento e estudo, e uma música rítmica nos estimula enquanto nos exercitamos.
-        A música também tem um efeito sobre muitas das nossas memórias importantes. Quem nunca associou uma determinada situação com uma canção?
-      </p>
-
-      <img class="center" src="heart.jpg">
-
-      <h2 style="font-family: 'Comfortaa', cursive; font-size: 18px; margin-top: 25px; margin-bottom: 15px;">Referências</h2>
-      
-      <p style="text-align: justify; color: black; margin-bottom: 50px; font-family: 'Comfortaa', cursive; font-weight: 500;">
-        <a>https://minutosaudavel.com.br/musicoterapia/#o-que-e-</a><br><br>
-        <a>http://www.revistademusicoterapia.mus.br/wp-content/uploads/2016/10/A-utiliza%C3%A7%C3%A3o-da-m%C3%BAsica-por-musicoterapeutas-e-por-outros-profissionais-em-din%C3%A2mica-de-psicoterapia-com-grupos-uma-revis%C3%A3o-sistem%C3%A1tica.pdf</a>
-
-    </body>
-
-   </html>
+    <footer id="down">
+      <a href="https://www.instagram.com/stringmusic_page/?hl=pt-br">
+      <img style="display: block; margin-left: auto; margin-right: auto; width: 55px; padding-top: 1.5%;" src="insta.png">
+      </a>
+    </footer>
+  </body>
+</html>
