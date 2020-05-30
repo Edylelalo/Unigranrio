@@ -1,75 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="sobre.css">
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="bootstrap-responsive.css">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <title>Stringmusic</title>
-    <script>
-        function myFunction() {
-          document.getElementById("myDropdown").classList.toggle("show");
-        }
-        
-        window.onclick = function(event) {
-          if (!event.target.matches('.dropbtn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-              var openDropdown = dropdowns[i];
-              if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-              }
-            }
-          }
-        }
-        </script>  
+    <link rel="stylesheet" type="text/css" href="sobre.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
 </head>
+<body>
+    <a href="PCA.html">
+    <img style="width: auto; height: 85px; position: absolute; margin-top: 10px;" src="Stringmusic.png">
+    </a>
+    <div class="nav">
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <div class="menu">
+            <a href="PCA.html">Home</a>
+            <a href="#">Como a música nos afeta?</a>
+            <a href="#">Benefícios da Musicoterapia</a>
+            <a href="Sobre.html">Sobre</a>
+            <a href="Contato.html">Fale Conosco</a>
+        </div>
+    </div>
 
-   <body>  
-       <header> 
-           <div id="banner"> 
-               <h1>
-                    <img src="Stringmusic.png" alt="image">                     
-               </h1>
-              
-               <nav>
-                <ul>
-                 <div class="dropdown">
-                   <button onclick="myFunction()" class="dropbtn">MENU<img style="width: 10%; margin-left: 10px;" src="arrow.png"></button>
-                   <div id="myDropdown" class="dropdown-content">
-                     <a href="Emoção.html" style="font-family: 'Comfortaa', cursive; font-weight: bold;">Como a música nos afeta?</a>
-                     <a href="Benefícios.html" style="font-family: 'Comfortaa', cursive; font-weight: bold;">Benefícios da Musicoterapia</a>
-                   </div>
-                 </div>
-                 <li><a href="PCA.html">Home</a></li>
-                 <li><a href="sobre.html">Sobre</a></li>
-                 <li><a href="Contato.html">Fale Conosco</a></li>
-                </ul>
-             </nav>
-         </div>
-      </header>
+    <h2>Sobre</h2>
 
-      <img class="center" src="eu.jpeg">
+    <img class="center" src="eu.jpeg">
 
-      <p style="font-family: 'Comfortaa', cursive; font-size: 18px; margin-top: 75px;"><strong>
-        Meu nome é Edyr Oliveira Souza Junior, tenho 18 anos e sou apaixonado por música (como a maioria dos adolescentes), e decidi fazer esse site
+    <p>
+        Meu nome é Edyr Oliveira Souza Junior, sou aluno de Sistemas de Informação da Unigranrio a 3 meses, tenho 18 anos e sou apaixonado por música (como a maioria dos adolescentes), e decidi fazer esse site
         para demonstrar o poder que a música tem de transformar vidas, sejam essas mudanças em forma de tratamento ou em simplesmente pela emoção sentida ao ouvir uma música.
         <br>
         Meu amor por música cresceu comigo desde meus 13 anos, quando comecei a tocar meu primeiro instrumento. Depois de muitos sonhos sobre se tornar um músico,
         houve um desânimo, e o sonho se tornou algo do passado.<br>
         Pesquisar sobre como e porquê a música nos afeta foi uma íncrivel jornada de aprendizado que mudou minha percepção sobre a música no geral.<br>
         Espero que tenha gostado do site e de saber um pouquinho de mim, mesmo que de uma forma rápida e superficial.
-        </strong> 
     </p>
 
-    <footer id="down">
+    <div class="footer" style="border-bottom: 1px solid #EAEAEB;
+                   text-align: center;
+                   height: 100px;
+                   line-height: 100px;
+                   background-color: white;
+                   box-shadow: 0px 0px 10px 0.5px black;">
         <a href="https://www.instagram.com/stringmusic_page/?hl=pt-br">
-        <img style="display: block; margin-left: auto; margin-right: auto; width: 55px; padding-top: 1.5%;" src="insta.png">
+            <img src="insta.png">
         </a>
-      </footer>
-   </body>
+      </div>
+
+</body>
 </html>
