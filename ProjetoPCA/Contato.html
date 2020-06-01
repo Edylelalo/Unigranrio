@@ -16,14 +16,45 @@
         <input type="checkbox" id="toggle"/>
         <div class="menu">
             <a href="PCA.html">Home</a>
-            <a href="#">Como a música nos afeta?</a>
-            <a href="#">Benefícios da Musicoterapia</a>
+            <a href="Emoção.html">Como a música nos afeta?</a>
+            <a href="Benefícios.html">Benefícios da Musicoterapia</a>
             <a href="sobre.html">Sobre</a>
             <a href="Contato.html">Fale Conosco</a>
         </div>
     </div>
-        <h2 style="font-family: 'Comfortaa', cursive; font-weight: bold; font-size: 30px; margin-top: 5%; margin-bottom: 3%; color: black; text-align: center;">Entre em Contato</h2>
+        <h2 style="font-family: 'Comfortaa', cursive; font-weight: bold; font-size: 30px; margin-top: 10%; margin-bottom: 3%; color: black; text-align: center;">Entre em Contato</h2>
     <p>Envie seu Feedback, seja com sugestões, problemas ou elogios.</p>
+
+    <img class="image-display" src="contact.png">
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="mailto:edyrjunior@unigranrio.br">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Nome</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">E-mail</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Mensagem</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Enviar</button>
+        </div>
+
+    </form>
 
     <div class="footer" style="border-bottom: 1px solid #EAEAEB;
                    text-align: center;
