@@ -44,4 +44,5 @@ function jogar(resposta) {
         document.getElementById('visor1').value = "***FIM***";
         document.getElementById('visor2').value = "Pontuação: " + pontos;
     }
+
 }
