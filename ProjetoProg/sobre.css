@@ -44,11 +44,43 @@ header{
 }
 
 body {
-<<<<<<< HEAD:ProjetoProg/sobre.css
-    background-image: url("d:/Projetos/ProjetoProg/back.jpg");
-=======
     background-image: url("back.jpg");
->>>>>>> fbf2720f17a3bb6c0fd30d1d0fc585f2485ef5c4:ProjetoProg/CSS/sobre.css
+}
+
+#darkmode {
+    text-align: center;
+}
+
+#DarkMode {
+    text-align: center;
+    position: relative;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: white;
+}
+
+.dark-mode #DarkMode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode {
+    background-image: url("blackback.jpg");
+    color: white;
+    box-shadow: 0px 0px 1px black
+  }
+.dark-mode header {
+    background-color: rgb(75, 75, 75);
+}
+.dark-mode #footer {
+    background-color: rgb(75, 75, 75);
 }
 
 h1 {
@@ -128,15 +160,19 @@ p {
     display: block;
   }
 
-  footer {
-    margin-top: 100px;
-    padding-bottom: 50px;
+  #footer {
+    margin-top: 120px;
+    padding-bottom: 20px;
     padding-top: 0px;
     text-align: center;
     background: #60f2ff;
+    box-shadow:  black;
+    box-shadow: 0px 0px 15px 1px black;
 }
 
-footer p {
+#footer p {
     text-align: center;
     font-size: 18px;
+    margin-top: -20px;
 }
+
